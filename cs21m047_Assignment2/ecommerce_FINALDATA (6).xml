@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE ecommerce SYSTEM "ecommerce.dtd">
+
+<APPLICATION>
+<ECOMMERCE>
+<Customer PhoneNumber="8962566120" EmailId="lavijunwal@gmail.com" >
+    <UserName>
+        <FirstName>"Lavi"</FirstName>
+        <LastName>"Junwal"</LastName>
+    </UserName>
+    <Address>
+        <Street>"Abhinandan Nagar"</Street>
+        <HouseNumber>"205"</HouseNumber>
+        <PinCode>"452010"</PinCode>
+        <City>"Indore"</City>
+        <State>"Madhya Pradesh"</State>
+    </Address>
+
+    <Credentials>
+        <LoginId>"lavi123"</LoginId>
+        <Password>"lavi123"</Password>
+    </Credentials>
+
+    <Gender>"Male"</Gender>
+    <DOB>
+        <Day>"20"</Day>
+        <Month>"MAR"</Month>
+        <Year>"1999"</Year>
+    </DOB>
+
+    <PrimeMembership>"Yes"</PrimeMembership>
+
+    <Order>
+        <OrderId>"15"</OrderId>
+        <Product>
+            <ProductID>"150"</ProductID>
+            <Type>"Electronics"</Type>
+            <Name>"Redmi Note 8"</Name>
+            <Price>16000</Price>
+            <Review>
+                <Comment>"Average"</Comment>
+                <Rating>3</Rating>
+            </Review>
+        </Product>
+
+        <Product>
+            <ProductID>"170"</ProductID>
+            <Type>"Fashion"</Type>
+            <Name>"Peter England Shirt"</Name>
+            <Price>2000</Price>
+            <Review>
+                <Comment>"Good"</Comment>
+                <Rating>4</Rating>
+            </Review>
+        </Product>     
+
+        <Bill>
+            <BillNumber>"135"</BillNumber>
+            <NumberofItems>2</NumberofItems>
+            <GSTNumber>"ASD137"</GSTNumber>
+            <GSTAmount>800</GSTAmount>
+            <Total>18800</Total>
+        </Bill>
+
+        <Date>
+            <Day>"03"</Day>
+            <Month>"APR"</Month>
+            <Year>"2022"</Year>
+        </Date>
+
+        <Address>
+            <Street>"Velacheri Road"</Street>
+            <HouseNumber>"24"</HouseNumber>
+            <PinCode>"600036"</PinCode>
+            <City>"Chennai"</City>
+            <State>"Tamil Nadu"</State>
+        </Address>
+
+        <Status>"Delivered"</Status>
+        <AgentID>"D138"</AgentID>
+
+    </Order>
+
+    <Complaint>
+        <ComplaintNumber></ComplaintNumber>
+        <ComplaintType></ComplaintType>
+        <ComplaintStatus></ComplaintStatus>
+        <Description></Description>
+    </Complaint>
+
+    <BankDetails>
+        <Branch>"Vijay Nagar Branch"</Branch>
+        <AccountNumber>"123782730"</AccountNumber>
+    </BankDetails>
+
+    <Wishlist>
+        <NumberofItems>3</NumberofItems>
+
+       <Product>
+            <ProductID>"250"</ProductID>
+            <Type>"Electronics"</Type>
+            <Name>"Boat Airdopes v121"</Name>
+            <Price>1500</Price>
+            <Review>
+                <Comment>"Good"</Comment>
+                <Rating>3</Rating>
+            </Review>
+        </Product>
+
+        <Product>
+            <ProductID>"139"</ProductID>
+            <Type>"Electronics"</Type>
+            <Name>"LG Microwave Oven"</Name>
+            <Price>15000</Price>
+            <Review>
+                <Comment>"Good"</Comment>
+                <Rating>5</Rating>
+            </Review>
+        </Product>
+
+        <Product>
+            <ProductID>"173"</ProductID>
+            <Type>"Groceries"</Type>
+            <Name>"Wheel Surf"</Name>
+            <Price>250</Price>
+            <Review>
+                <Comment>"Average"</Comment>
+                <Rating>3</Rating>
+            </Review>
+        </Product>
+    </Wishlist>
+
+    <Cart>
+        <NumberofItems>1</NumberofItems>
+
+        <Product>
+            <ProductID>"185"</ProductID>
+            <Type>"Electronics"</Type>
+            <Name>"Sony Bravia TV"</Name>
+            <Price>50000</Price>
+            <Review>
+                <Comment>"Very Good"</Comment>
+                <Rating>5</Rating>
+            </Review>
+        </Product>
+
+        <TotalAmount>50000</TotalAmount>
+    </Cart>
+
+</Customer>
+
+<Customer PhoneNumber="9876443422" EmailId="radhe@gmail.com" >
+    <UserName>
+        <FirstName>"Radhe"</FirstName>
+        <LastName>"xyz"</LastName>
+    </UserName>
+    <Address>
+        <Street>"MGM Road"</Street>
+        <HouseNumber>"356"</HouseNumber>
+        <PinCode>"474751"</PinCode>
+        <City>"Banglore"</City>
+        <State>"Karnataka"</State>
+    </Address>
+
+    <Credentials>
+        <LoginId>"rad123"</LoginId>
+        <Password>"rad123"</Password>
+    </Credentials>
+
+    <Gender>"Male"</Gender>
+    <DOB>
+        <Day>"10"</Day>
+        <Month>"Mar"</Month>
+        <Year>"1988"</Year>
+    </DOB>
+
+    <PrimeMembership>"No"</PrimeMembership>
+
+    <Order>
+        <OrderId>"478"</OrderId>
+        <Product>
+            <ProductID>"784"</ProductID>
+            <Type>"Pantry"</Type>
+            <Name>"Dosa Mix"</Name>
+            <Price>455</Price>
+            <Review>
+                <Comment>"Bad"</Comment>
+                <Rating>2</Rating>
+            </Review>
+        </Product>
+
+        <Bill>
+            <BillNumber>"B233"</BillNumber>
+            <NumberofItems>1</NumberofItems>
+            <GSTNumber>"GG123"</GSTNumber>
+            <GSTAmount>30</GSTAmount>
+            <Total>485</Total>
+        </Bill>
+
+        <Date>
+            <Day>"26"</Day>
+            <Month>"Mar"</Month>
+            <Year>"2022"</Year>
+        </Date>
+
+        <Address>
+            <Street>"MGM Road"</Street>
+            <HouseNumber>"356"</HouseNumber>
+            <PinCode>"474751"</PinCode>
+            <City>"Banglore"</City>
+            <State>"Karnataka"</State>
+        </Address>
+
+        <Status>"Shipped"</Status>
+        <AgentID>"M112"</AgentID>
+
+    </Order>
+
+    <Complaint>
+        <ComplaintNumber>"CSD123"</ComplaintNumber>
+        <ComplaintType>"Shipment"</ComplaintType>
+        <ComplaintStatus>"Resolved"</ComplaintStatus>
+        <Description>"Order was delayed"</Description>
+    </Complaint>
+
+    <BankDetails>
+        <Branch>"Banglore Brach"</Branch>
+        <AccountNumber>"93423308"</AccountNumber>
+    </BankDetails>
+
+    <Cart>
+    <!--Add appropriate data-->
+        <NumberofItems>2</NumberofItems>
+        <Product>
+            <ProductID>"100"</ProductID>
+            <Type>"Electronics"</Type>
+            <Name>"Samsung S10"</Name>
+            <Price>20000</Price>
+            <Review>
+                <Comment>"Good"</Comment>
+                <Rating>4</Rating>
+            </Review>
+        </Product>
+        <TotalAmount>20000</TotalAmount>
+    </Cart>
+
+</Customer>
+
+<Customer PhoneNumber="9106538809" EmailId="yashkumar@gmail.com" >
+    <UserName>
+        <FirstName>"Yash"</FirstName>
+        <LastName>"Kumar"</LastName>
+    </UserName>
+    <Address>
+        <Street>"VR road"</Street>
+        <HouseNumber>"119"</HouseNumber>
+        <PinCode>"530049"</PinCode>
+        <City>"Vizag"</City>
+        <State>"Andhra pradesh"</State>
+    </Address>
+
+    <Credentials>
+        <LoginId>"bcde"</LoginId>
+        <Password>"bcde123"</Password>
+    </Credentials>
+
+    <Gender>"Male"</Gender>
+    <DOB>
+        <Day>"20"</Day>
+        <Month>"AUG"</Month>
+        <Year>"2000"</Year>
+    </DOB>
+
+    <PrimeMembership>"NO"</PrimeMembership>
+
+    <Order>
+        <OrderId>"11"</OrderId>
+        <Product>
+            <ProductID>"101"</ProductID>
+            <Type>"Electronics"</Type>
+            <Name>"Redmi note 4"</Name>
+            <Price>10000</Price>
+            <Review>
+                <Comment>"Good"</Comment>
+                <Rating>4.2</Rating>
+            </Review>
+        </Product>
+        <Bill>
+            <BillNumber>"003"</BillNumber>
+            <NumberofItems>1</NumberofItems>
+            <GSTNumber>"ABC1234"</GSTNumber>
+            <GSTAmount>100</GSTAmount>
+            <Total>10100</Total>
+        </Bill>
+
+        <Date>
+            <Day>"22"</Day>
+            <Month>"march"</Month>
+            <Year>"2022"</Year>
+        </Date>
+        <Address>
+            <Street>"VR road"</Street>
+            <HouseNumber>"119"</HouseNumber>
+            <PinCode>"530049"</PinCode>
+            <City>"Vizag"</City>
+            <State>"Andhra pradesh"</State>
+        </Address>
+        <Status>"Shipped"</Status>
+        <AgentID>"227"</AgentID>
+
+    </Order>
+
+    <Complaint>
+        <ComplaintNumber>123</ComplaintNumber>
+        <ComplaintType>"Product"</ComplaintType>
+        <ComplaintStatus>"Resolved"</ComplaintStatus>
+        <Description>"Product not working properly."</Description>
+    </Complaint>
+
+    <BankDetails>
+        <Branch>"kommadhi Branch"</Branch>
+        <AccountNumber>"99999999"</AccountNumber>
+    </BankDetails>
+
+    <Wishlist>
+        <NumberofItems>2</NumberofItems>
+
+       <Product>
+            <ProductID>"31"</ProductID>
+            <Type>"Electronics"</Type>
+            <Name>"one plus ear pods"</Name>
+            <Price>2000</Price>
+            <Review>
+                <Comment>"Good"</Comment>
+                <Rating>3.2</Rating>
+            </Review>
+        </Product>
+
+        
+        <Product>
+            <ProductID>"32"</ProductID>
+            <Type>"Groceries"</Type>
+            <Name>"shampoo"</Name>
+            <Price>150</Price>
+            <Review>
+                <Comment>"Average"</Comment>
+                <Rating>2.9</Rating>
+            </Review>
+        </Product>
+    </Wishlist>
+
+    <Cart>
+        <NumberofItems>3</NumberofItems>
+
+        <Product>
+            <ProductID>"9999"</ProductID>
+            <Type>"Electronics"</Type>
+            <Name>"Samsung washing machine"</Name>
+            <Price>20000</Price>
+            <Review>
+                <Comment>"Very Good"</Comment>
+                <Rating>4.5</Rating>
+            </Review>
+        </Product>
+        <TotalAmount>20000</TotalAmount>
+    </Cart>
+
+</Customer>
+
+<Vendor>
+    <Name>"LG"</Name>
+    <Address>
+        <Street>"MG Road"</Street>
+        <HouseNumber>"66"</HouseNumber>
+        <PinCode>"454556"</PinCode>
+        <City>"Chennai"</City>
+        <State>"Tamil Nadu"</State>    
+    </Address>
+
+    <GSTNumber>"ABC140"</GSTNumber>
+
+    <BankDetails>
+        <Branch>"Taramani Branch"</Branch>
+        <AccountNumber>"123482737"</AccountNumber>
+    </BankDetails>
+
+    <Product>
+        <ProductID>"139"</ProductID>
+        <Type>"Electronics"</Type>
+        <Name>"LG Microwave Oven"</Name>
+        <Price>15000</Price>
+        <Review>
+            <Comment>"Good"</Comment>
+            <Rating>5</Rating>
+        </Review>    
+    </Product>
+
+</Vendor>
+
+<Vendor>
+    <Name>"Samsung"</Name>
+    <Address>
+        <Street>"Ramer Road"</Street>
+        <HouseNumber>"78"</HouseNumber>
+        <PinCode>"414322"</PinCode>
+        <City>"Mumbai"</City>
+        <State>"Maharashtra"</State>    
+    </Address>
+
+    <GSTNumber>"PQR134"</GSTNumber>
+
+    <BankDetails>
+        <Branch>"Taj Road"</Branch>
+        <AccountNumber>"43232323"</AccountNumber>
+    </BankDetails>
+
+    <Product>
+        <ProductID>"100"</ProductID>
+        <Type>"Electronics"</Type>
+        <Name>"Samsung S10"</Name>
+        <Price>20000</Price>
+        <Review>
+            <Comment>"Good"</Comment>
+            <Rating>4</Rating>
+        </Review>    
+    </Product>
+
+</Vendor>
+
+<DeliveryAgent>
+    <AgentID>"D100"</AgentID>
+    <Name>"Ramesh Kumar"</Name>
+    <Gender>"Male"</Gender>
+    <MobileNumber>"9797979597"</MobileNumber>
+</DeliveryAgent>
+
+<DeliveryAgent>
+    <AgentID>"227"</AgentID>
+    <Name>"Suresh Kumar"</Name>
+    <Gender>"Male"</Gender>
+    <MobileNumber>"9797979590"</MobileNumber>
+</DeliveryAgent>
+
+<DeliveryAgent>
+    <AgentID>"TRA1234"</AgentID>
+    <Name>Tarun Singh</Name>
+    <Gender>"Male"</Gender>
+    <MobileNumber>"9455858585"</MobileNumber>
+</DeliveryAgent>
+
+<DeliveryAgent>
+    <AgentID>"UDS4"</AgentID>
+    <Name>"Uday Singh"</Name>
+    <Gender>"Male"</Gender>
+    <MobileNumber>"9492561479"</MobileNumber>
+</DeliveryAgent>
+
+<Event>
+    <EventID>"NYS"</EventID>
+    <Activity>
+        <Title>"New Year Sale"</Title>
+        <Description>"40% off on all products"</Description>
+    </Activity>
+    <Platform>"WEBSITE"</Platform>
+    <StartTime>
+        <Date>
+            <Day>"01"</Day>
+            <Month>"JAN"</Month>
+            <Year>"2022"</Year>
+        </Date>
+    </StartTime>
+    <EndTime>
+        <Date>
+            <Day>"15"</Day>
+            <Month>"JAN"</Month>
+            <Year>"2022"</Year>
+        </Date>
+    </EndTime> 
+</Event>
+
+<Event>
+    <EventID>"BBS"</EventID>
+    <Activity>
+        <Title>"Big Billion Sale"</Title>
+        <Description>"50% off on all products"</Description>
+    </Activity>
+    <Platform>"MOBILEAPP"</Platform>
+    <StartTime>
+        <Date>
+            <Day>"12"</Day>
+            <Month>"MAR"</Month>
+            <Year>"2022"</Year>
+        </Date>
+    </StartTime>
+    <EndTime>
+        <Date>
+            <Day>"13"</Day>
+            <Month>"MAR"</Month>
+            <Year>"2022"</Year>
+        </Date>
+    </EndTime> 
+</Event>
+
+<Sponsor>
+    <Name>"XYZ Technologies Ltd."</Name>
+    <Product>
+        <ProductID>"236"</ProductID>
+        <Type>"Electronics"</Type>
+        <Name>"Redmi Note 12 Pro"</Name>
+        <Price>25000</Price>
+        <Review>
+            <Comment>"Not a great"</Comment>
+            <Rating>3.5</Rating>
+        </Review>
+    </Product>
+</Sponsor>
+
+<Sponsor>
+    <Name>"ABC Technologies Ltd."</Name>
+    <Product>
+        <ProductID>"100"</ProductID>
+        <Type>"Electronics"</Type>
+        <Name>"Samsung S10"</Name>
+        <Price>20000</Price>
+        <Review>
+            <Comment>"Good"</Comment>
+            <Rating>4</Rating>
+        </Review>    
+    </Product>
+    <Advertisement>
+        <Poster>
+            <Title>"Special Offer!"</Title>
+            <Product>
+                <ProductID>"100"</ProductID>
+                <Type>"Electronics"</Type>
+                <Name>"Samsung S10"</Name>
+                <Price>20000</Price>
+                <Review>
+                    <Comment>"Good"</Comment>
+                    <Rating>4</Rating>
+                </Review>    
+            </Product>
+        </Poster>
+    </Advertisement>
+</Sponsor>
+
+<BestSeller>
+    <Product>
+        <ProductID>"276"</ProductID>
+        <Type>"Electronics"</Type>
+        <Name>"Redmi Note 11 Pro"</Name>
+        <Price>22000</Price>
+        <Review>
+            <Comment>"Very Good"</Comment>
+            <Rating>5</Rating>
+        </Review>
+    </Product>
+
+    <UnitsSold>1200</UnitsSold>
+</BestSeller>
+
+<BestSeller>
+    <Product>
+        <ProductID>"111"</ProductID>
+        <Type>"Electronics"</Type>
+        <Name>"Real Me 4"</Name>
+        <Price>20000</Price>
+        <Review>
+            <Comment>"Good"</Comment>
+            <Rating>3</Rating>
+        </Review>
+    </Product>
+
+    <UnitsSold>600</UnitsSold>
+</BestSeller>
+
+<HelpLine>
+    <Agent>"BabuRao"</Agent>
+    <ComplaintNumber></ComplaintNumber>
+    <ComplaintStatus></ComplaintStatus>
+</HelpLine>
+
+<HelpLine>
+    <Agent>"HTR 123"</Agent>
+    <ComplaintNumber>123</ComplaintNumber>
+    <ComplaintStatus>"RESOLVED"</ComplaintStatus>
+</HelpLine>
+
+</ECOMMERCE>
+</APPLICATION>

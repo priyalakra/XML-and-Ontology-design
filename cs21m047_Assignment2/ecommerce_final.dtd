@@ -1,0 +1,128 @@
+<!xml version:"1.0" encoding="utf-8">
+
+
+
+
+<!-- doc: Conventions To be followed: 
+
+Tbox: First Letter of each word is Capital. Example Team, DeclamationTeam,MoneyEvents etc.;
+
+Relation: Use Camel casing. Example: relatedTo, comprisesOf etc. 
+-->
+
+<!DOCTYPE APPLICATION[
+
+<!ELEMENT APPLICATION (ECOMMERCE*)>
+<!ELEMENT ECOMMERCE (Customer+, Vendor+, DeliveryAgent+, Event+, Sponsor*, BestSeller+, Advertisement*, HelpLine+)>
+
+<!-- Customer Details-->
+<!ELEMENT Customer (UserName, Address, Credentials, Gender, DOB, PrimeMembership, Order*, Complaint*, BankDetails,Wishlist,Cart)>
+<!ELEMENT UserName (FirstName, LastName)>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+
+<!-- Address Details-->
+<!ELEMENT Address (Street,HouseNumber,PinCode,City,State)>
+<!ELEMENT Street (#PCDATA)>
+<!ELEMENT HouseNumber (#PCDATA)>
+<!ELEMENT PinCode (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT State (#PCDATA)>
+
+<!--Credentials for LOGIN-->
+<!ELEMENT Credentials (LoginId, Password)>
+<!ELEMENT LoginId (#PCDATA)>
+<!ELEMENT Password (#PCDATA)>
+
+<!ELEMENT Gender (#PCDATA)>
+
+<!--Date of Birth with subelements Date/Month/Year-->
+<!ELEMENT DOB (Day,Month,Year)>
+<!ELEMENT Day (#PCDATA)>
+<!ELEMENT Month (#PCDATA)>
+<!ELEMENT Year (#PCDATA)>
+
+<!ELEMENT PrimeMembership (#PCDATA)>
+
+<!--Order Details-->
+<!ELEMENT Order (OrderId,Product+,Bill,Date,Address,Status,AgentID)>
+<!ELEMENT OrderId (#PCDATA)>
+<!ELEMENT Date (Day,Month,Year)>
+<!ELEMENT Status (#PCDATA)>
+
+<!--Complaint Details-->
+<!ELEMENT Complaint (ComplaintNumber,ComplaintType,ComplaintStatus,Description)>
+<!ELEMENT ComplaintNumber (#PCDATA)>
+<!ELEMENT ComplaintType (#PCDATA)>
+<!--Type : Payment | Product | Shipment | Platform-->
+<!ELEMENT ComplaintStatus (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+<!--Attribites of the customer-->
+<!ATTLIST Customer PhoneNumber CDATA #REQUIRED>
+<!ATTLIST Customer EmailId CDATA #REQUIRED>
+
+
+<!--Vendor Details-->
+<!ELEMENT Vendor (Name,Address,GSTNumber,BankDetails, Product+)>
+<!ELEMENT Name (#PCDATA)>
+
+<!ELEMENT BankDetails (Branch,AccountNumber)>
+<!ELEMENT Branch (#PCDATA)>
+<!ELEMENT AccountNumber (#PCDATA)>
+
+
+<!--Product Details-->
+<!ELEMENT Product (ProductID,Type,Name,Price,Review)>
+<!ELEMENT ProductID (#PCDATA)>
+<!ELEMENT Type (#PCDATA)>
+<!--Repeated Declaration
+<!ELEMENT Name (#PCDATA)>-->
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Review (Comment, Rating)>
+<!ELEMENT Rating (#PCDATA)>
+<!ELEMENT Comment (#PCDATA)>
+
+<!--Event Details-->
+<!ELEMENT Event (EventID, Activity, Platform+, StartTime+, EndTime+)>
+<!ELEMENT EventID (#PCDATA)>
+<!ELEMENT Activity (Title,Description)>
+<!ELEMENT Title (#PCDATA)>
+<!--Repeated Declaration
+<!ELEMENT Description (#PCDATA)>-->
+<!ELEMENT Platform (#PCDATA)>
+<!ELEMENT StartTime (Date)>
+<!ELEMENT EndTime (Date)>
+
+<!ELEMENT Sponsor (Name,Product+,Advertisement*)>
+
+<!ELEMENT BestSeller (Product+,UnitsSold)>
+<!ELEMENT UnitsSold (#PCDATA)>
+
+<!--Bill Details-->
+<!ELEMENT Bill (BillNumber, NumberofItems, GSTNumber+, GSTAmount, Total)>
+<!ELEMENT BillNumber (#PCDATA)>
+<!ELEMENT NumberofItems (#PCDATA)>
+<!ELEMENT Total (#PCDATA)>
+<!ELEMENT GSTNumber (#PCDATA)>
+<!ELEMENT GSTAmount (#PCDATA)>
+
+<!--Delivery Details-->
+<!ELEMENT DeliveryAgent (AgentID, Name, Gender, MobileNumber)>
+<!ELEMENT AgentID (#PCDATA)>
+<!ELEMENT MobileNumber (#PCDATA)>
+
+<!ELEMENT Advertisement (Poster+)>
+<!ELEMENT Poster (Title, Product+)>
+
+<!--Helpline Details-->
+<!ELEMENT HelpLine (Agent,ComplaintNumber,ComplaintStatus)>
+<!ELEMENT Agent (#PCDATA)>
+
+<!--Cart Details-->
+<!ELEMENT Cart (NumberofItems,Product+, TotalAmount)>
+<!ELEMENT TotalAmount (#PCDATA)>
+
+<!--Wishlist Details-->
+<!ELEMENT Wishlist (NumberofItems,Product+)>
+
+]>
